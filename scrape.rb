@@ -12,7 +12,14 @@ def process(row, timeout=2)
   doc = Nokogiri::HTML(html)
   reach = doc.css("#fighter-reach").text.to_f
   leg_reach = doc.css("#fighter-leg-reach").text.to_f
-  row.to_h.merge('reach' => reach.zero? ? nil : reach, 'leg_reach' => leg_reach.zero? ? nil : leg_reach)
+  record = doc.css("#fighter-skill-record").text.split("-")
+  row.to_h.merge('record' => record.join("-"),
+                 'wins' => record[0],
+                 'losses' => record[1],
+                 'draws' => record[2],
+                 'reach' => reach.zero? ? nil : reach,
+                 'leg_reach' => leg_reach.zero? ? nil : leg_reach,
+                 'reach_to_height' => reach.zero? ? nil : reach / row['height'].to_f)
 end
 
 
