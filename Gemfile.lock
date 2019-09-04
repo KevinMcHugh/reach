@@ -2,6 +2,8 @@ GEM
   remote: https://rubygems.org/
   specs:
     coderay (1.1.1)
+    gruff (0.7.0)
+      rmagick (~> 2.13, >= 2.13.4)
     method_source (0.8.2)
     mini_portile2 (2.1.0)
     nokogiri (1.7.1)
@@ -10,6 +12,7 @@ GEM
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
       slop (~> 3.4)
+    rmagick (2.16.0)
     slop (3.6.0)
 
 PLATFORMS
@@ -17,6 +20,7 @@ PLATFORMS
 
 DEPENDENCIES
   bundler
+  gruff
   nokogiri
   pry
 

@@ -904,7 +904,7 @@ url,fid,name,nick,birth_date,height,weight,association,class,locality,country,re
 /fighter/Gian-Villante-42802,42802,Gian Villante,,4/18/1985,74,205,Bellmore Kickboxing Academy,Light Heavyweight,"Bellmore, New York",United States,15-7-0,15,7,0,76.0,43.0,1.027027027027027
 /fighter/Shannon-Gugerty-11001,11001,Shannon Gugerty,,12/30/1981,70,145,Victory MMA,Featherweight,"San Diego, California",United States,"",,,,,,
 /fighter/Justin-Buchholz-18062,18062,Justin Buchholz,,8/22/1983,71,155,Team Alpha Male,Lightweight,"Sacramento, California",United States,"",,,,,,
-/fighter/Felipe-Olivieri-28181,28181,Felipe Olivieri,,,,155,Nova Uniao,Lightweight,"Rio de Janeiro, Rio de Janeiro",Brazil,"",,,,72.0,40.0,Infinity
+/fighter/Felipe-Olivieri-28181,28181,Felipe Olivieri,,,69,155,Nova Uniao,Lightweight,"Rio de Janeiro, Rio de Janeiro",Brazil,"",,,,72.0,40.0,1.04347826087
 /fighter/Miguel-Torres-3006,3006,Miguel Torres,,1/18/1981,69,145,Tristar Gym,Featherweight,"East Chicago, Indiana",United States,"",,,,,,
 /fighter/Dokonjonosuke-Mishima-1170,1170,Dokonjonosuke Mishima,,4/19/1972,67,154,Cobra Kai MMA Dojo,Lightweight,,Japan,"",,,,,,
 /fighter/Frank-Mir-2329,2329,Frank Mir,,5/24/1979,75,262,Las Vegas Combat Club,Heavyweight,"Las Vegas, Nevada",United States,18-11-0,18,11,0,79.0,43.0,1.0533333333333332
